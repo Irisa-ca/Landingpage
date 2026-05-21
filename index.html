@@ -367,13 +367,14 @@
     }
 
     #about {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 6rem;
-      align-items: center;
+      display: flex;
+      justify-content: center;
       background: var(--white);
     }
-
+    .about-text {
+      max-width: 760px;
+      width: 100%;
+    }}
     .about-bio {
       font-size: 0.8rem;
       color: var(--muted);
